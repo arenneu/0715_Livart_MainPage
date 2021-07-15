@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@import url(style_reset.css);
+
+div#wrap{
+    width: 1200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+div#wrap>h1{
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* nav#gnb */
+
+#main nav#gnb{
+    /*border: 1px solid #f00;*/
+    margin: 20px 0px;
+}
+
+#main ul#mainMenu{
+    /*border: 1px solid #00f;*/
+    padding: 0 250px;
+}
+
+#mainMenu li.mainLi{
+    /*border: 1px solid #f80;*/
+    font-size: 15px;
+}
+
+#mainMenu li.mainLi a:hover{
+    font-weight: bold;
+}
+
+#mainMenu li.mainLi span{
+    padding: 13px;
+}
+
+/* nav#gnb */
+/* div#contents */
+
+#contents #shortcut{
+    margin-right: 70px;
+}
+
+#contents #furniture{
+    /*border: 1px solid #f80;*/
+    padding: 5px;
+    flex: 1;
+    text-align: center;
+}
+
+#contents #furniture h5{
+    display: inline-block;
+    color: #ad8878;
+}
+
+#contents #furniture span{
+    font-size: 13px;
+}
+
+#contents #furniture h2{
+    padding-top: 8px;
+    font-size: 22px;
+    color: #108d8f;
+    display: inline-block;
+}
+
+#contents #furniture h4{
+    color: #108d8f;
+    display: inline-block;
+}
+
+#contents #furniture table{
+    /*border: 1px solid #f88;*/
+    width: 100%;
+}
+
+#contents #furniture table td{
+    width: 230px;
+    /*border: 1px solid #08f;*/
+}
+
+div.boxContents{
+    padding: 0 18px;
+    margin: 3px 0 17px;
+}
+
+/* div#contents */
+
+/* 팝업영역 */
+
+div.popupBG{
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.62);
+    display: none;
+    /*border: 4px solid #f00;*/
+}
+
+div.popupBox{
+    border: 1px solid #ad8878;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 40px 50px;
+    
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.popupBox h5{
+    display: inline-block;
+    color: #ad8878;
+}
+
+div.popupBox span{
+    font-size: 13px;
+}
+
+div.popupBox h2{
+    padding-top: 8px;
+    font-size: 22px;
+    color: #108d8f;
+    display: inline-block;
+}
+
+div.popupBox h4{
+    color: #108d8f;
+    display: inline-block;
+}
+
+button.closeBtn{
+    color: #ad8878;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #ad8878;
+    padding: 5px 20px;
+}
+
+/* 팝업영역 */
